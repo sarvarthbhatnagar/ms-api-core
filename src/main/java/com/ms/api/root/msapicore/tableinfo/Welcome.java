@@ -18,7 +18,7 @@ public class Welcome {
 
     @GetMapping("/")
     public String greeting(HttpServletRequest request) {
-        //check 8 pm
+        //check 8:24 pm
         return "Hi! i am up at host/port : "+ request.getRequestURL().toString();
     }
 
